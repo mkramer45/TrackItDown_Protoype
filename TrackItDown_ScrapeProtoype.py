@@ -15,7 +15,7 @@ uClient.close()
 # html parsing
 page_soup = soup(page_html, "html.parser")
 
-containers = page_soup.findAll('div', class_=re.compile("content"))
+containers = page_soup.findAll('div', class_=re.compile("featuredTracks track"))
 
 
 
